@@ -7,6 +7,37 @@
   pointer-events: none;
 }
 
+.img-wrapper img{
+  height: 200px;
+}
+
+.btn-wrapper button{
+  background-color: red;
+  color: white;
+  height: 32px;
+  border-radius: 10px;
+  box-shadow: #282c34 0px 1px 5px;
+}
+
+.cart-wrapper{
+  width: 18%;
+}
+.cart{
+  display: flex;
+  justify-content: space-evenly;
+}
+.main{
+  position: relative;
+}
+.AddToCard{
+  position: absolute;
+  right: 1%;
+}
+.cart-wrapper{
+  border: 2px solid black;
+  box-shadow: #000000 0px 1px 5px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
